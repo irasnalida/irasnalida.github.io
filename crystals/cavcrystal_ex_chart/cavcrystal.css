@@ -1,0 +1,10 @@
+.champArea{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#myChart{
+    display: block;
+    position: relative;
+    margin: auto;
+}

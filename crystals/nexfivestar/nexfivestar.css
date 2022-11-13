@@ -1,0 +1,28 @@
+.pulledChamp{
+    display: none;
+    text-align: left;
+    padding-top: 10px;
+    color:rgb(230, 230, 230);
+    background-color: rgb(55, 55, 55);
+    outline: 3px solid rgb(41, 41, 41);
+    font-size: 22px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    text-align: justify;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.histChamp{
+    color:rgb(210, 210, 210);
+    background-color: rgb(61, 61, 61) !important;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    color: rgb(129, 129, 129);
+}
