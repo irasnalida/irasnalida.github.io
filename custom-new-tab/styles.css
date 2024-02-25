@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 16, 16);
+}
+.emoji-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Set emoji container height */
+}
+
+.smile-emoji {
+  font-size: 128px; /* Double the font size */
+  padding-top: 10px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Set link container height */
+}
+
+.site-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-link {
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 15px; /* Add 10px of padding */
+}
+.site-link:hover{
+  background-color: rgba(25,25,25,1);
+  border-radius: 12px;
+}
+
+.site-link:last-child {
+  margin-right: 0;
+}
+
+.site-link img {
+  width: 64px;
+  height: 64px;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.bounce-emoji {
+  animation: bounce 0.5s ease-in-out infinite;
+}
+
+
+@keyframes scale {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.scale-emoji {
+  animation: scale 0.5s ease-in-out infinite;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
